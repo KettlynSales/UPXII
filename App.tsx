@@ -6,6 +6,7 @@ import {
   Roboto_700Bold,
 } from "@expo-google-fonts/roboto";
 
+// import { Home } from "@screens/Home";
 import { Routes } from "./src/routes";
 
 import { THEME } from "./src/theme";
