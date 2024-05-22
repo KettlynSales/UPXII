@@ -2,23 +2,21 @@ import { extendTheme } from "native-base";
 
 export const THEME = extendTheme({
   colors: {
-    green: {
-      700: "#00875F",
-      500: "#00B37E",
+    yellow: {
+      700: "#FFF5E0",
+    },
+    pink: {
+      800: "#a53019",
+      700: "#FFA0AC",
+      600: "#e4654c",
+      500: "#EE9E8E",
+      400: "#FFDBC3",
     },
     gray: {
-      700: "#121214",
-      600: "#202024",
-      500: "#29292E",
-      400: "#323238",
-      300: "#7C7C8A",
-      200: "#C4C4CC",
-      100: "#E1E1E6",
+      100: "#E0E0E0",
+      500: "#707070",
     },
     white: "#FFFFFF",
-    red: {
-      500: "#F75A68",
-    },
   },
   fonts: {
     heading: "Roboto_700Bold",
