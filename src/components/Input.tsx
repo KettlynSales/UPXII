@@ -1,21 +1,22 @@
 import { Input as NativeBaseInput, IInputProps } from "native-base";
+import React = require("react");
 
 export function Input({ ...rest }: IInputProps) {
   return (
     <NativeBaseInput
-      bg="gray.700"
+      bg="white"
       h={14}
       px={4}
       borderWidth={0}
       fontSize="md"
-      color="white"
+      color="blue"
       fontFamily="body"
-      placeholderTextColor="gray.300"
+      placeholderTextColor="pink.500"
       mb={4}
       _focus={{
-        bg: "gray.700",
+        bg: "white",
         borderWidth: 1,
-        borderColor: "green.500",
+        borderColor: "pink.400",
       }}
       {...rest}
     />
