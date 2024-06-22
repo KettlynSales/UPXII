@@ -5,6 +5,7 @@ import {
 
 import { SignIn } from "@screens/SignIn";
 import { SignUp } from "@screens/SignUp";
+import React = require("react");
 
 type AuthRoutes = {
   signIn: undefined;
